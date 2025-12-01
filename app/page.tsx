@@ -195,9 +195,9 @@ export default function AdventCalendar() {
   const [currentTime, setCurrentTime] = useState<Date | null>(null)
   const [isRevealed, setIsRevealed] = useState(false)
 
-  // Ora del reveal: 02:46:00 ora di Roma (TEST)
+  // Ora del reveal: 02:50:00 ora di Roma (TEST)
   const REVEAL_HOUR = 2
-  const REVEAL_MINUTE = 46
+  const REVEAL_MINUTE = 50
   const REVEAL_SECOND = 0
 
   useEffect(() => {
@@ -748,7 +748,7 @@ const CountdownEnvelope = memo(function CountdownEnvelope({
               ))}
             </div>
             
-            <p className="note">⏰ Ogni giorno alle 02:46</p>
+            <p className="note">⏰ Ogni giorno alle 02:50</p>
           </div>
         </div>
 
